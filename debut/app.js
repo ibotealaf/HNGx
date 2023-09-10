@@ -9,8 +9,9 @@ const server = http.createServer(function (request, response) {
             current_day: watch().day,
             utc_time: watch().utc_time,
             github_file_url:
-                'https://github.com/ibotealaf/starter/blob/main/app.js',
-            github_repo_url: 'https://github.com/ibotealaf/starter',
+                'https://github.com/ibotealaf/HNGx/blob/main/debut/app.js',
+            github_repo_url:
+                'https://github.com/ibotealaf/HNGx/tree/main/debut',
             status_code: 200,
         };
 
