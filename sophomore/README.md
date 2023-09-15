@@ -1,6 +1,8 @@
 ## Sophomore Project
 
-This is a REST API interfacing with non-relational database
+This is a REST API interfacing with non-relational database.
+
+[UML & ER Diagram](https://drive.google.com/file/d/1UiW07mQSaOkww4g4DOvkqgS3F7nH6rUV/view)
 
 ## API Reference
 
