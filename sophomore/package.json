@@ -5,7 +5,6 @@
   "scripts": {
     "prestart": "yarn",
     "start": "node -r dotenv/config  index.js",
-    "dev": "nodemon -r dotenv/config index.js"
   },
   "type": "module",
   "license": "MIT",
