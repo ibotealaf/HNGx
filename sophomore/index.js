@@ -3,6 +3,7 @@ import { MongoClient } from 'mongodb';
 const PORT = process.env.PORT || 5000;
 
 const client = new MongoClient(process.env.MONGODB_URL);
+console.log(process.env.MONGODB_URL);
 client
     .connect()
     .then(() => console.log('connected to db'))
