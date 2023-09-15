@@ -3,7 +3,6 @@ import { MongoClient } from 'mongodb';
 const PORT = process.env.PORT || 5000;
 
 const client = new MongoClient(process.env.MONGODB_URL);
-console.log(process.env.MONGODB_URL);
 client
     .connect()
     .then(() => console.log('connected to db'))
@@ -174,6 +173,7 @@ function reqBodyParser(req) {
                 bodyString += slug.toString();
             });
             req.on('end', () => {
+                console.log(bodyString);
                 resolve(JSON.parse(bodyString));
             });
         } catch (error) {
