@@ -15,7 +15,7 @@ This is a REST API interfacing with non-relational database.
 #### Get a person
 
 ```http
-  GET /api/person/${name}
+  GET /api/persons/${name}
 ```
 
 | Parameter | Type     | Description                              |
